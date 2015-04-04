@@ -9,7 +9,7 @@ The repository contains four files at the moment:
 
 The project execute two nodes on the stageros simulator: RobotWander and RobotFollower. The RobotWander node is created in the random_walk.cpp file and the RobotFollower is created in the 
 
-random_walk_1.cpp file. Then, it is necessary to create two robots in the .world file to execute them correctly. These robots have to have their laser scan a little bit below 
+random_walk_1.cpp file. Then, it is necessary to create two robots in the .world file to execute them correctly. These two robots have to have their laser scan a little bit below to be able to detect them each other.
 
 The class Robot is declared and defined in the files: Robot.h and Robot.cpp respectively. It contains all the functions and attributes necessary to make a robot wander in a random place.
 
