@@ -11,7 +11,7 @@ The project has two nodes to be executed on the stageros simulator: RobotWander 
 
 The class Robot is declared and defined in the files: Robot.h and Robot.cpp respectively. It contains all the functions and attributes necessary to make a robot wander in a random place.
 
-Currently, the RobotWander and RobotFollower nodes will wander in a world in stageros simulator. Although, I'm still working to make RobotFollower to make honor to its name and actually follow the RobotWander instead of just wander like the other robot.
+Currently, the RobotWander and RobotFollower nodes will wander in a world in stageros simulator. I'm still working to make RobotFollower to make honor to its name and actually follow the RobotWander instead of just wander like the other robot.
 
 Stay tuned!
 
