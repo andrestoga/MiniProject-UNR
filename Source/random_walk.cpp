@@ -1,3 +1,8 @@
+/*
+	Note: This code is based on the following example:
+	http://www.cim.mcgill.ca/~yiannis/417/2013/COMP417_A1.pdf
+*/
+
 #include "ros/ros.h"
 #include "Robot.h"
 

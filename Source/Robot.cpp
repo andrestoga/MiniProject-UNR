@@ -1,3 +1,9 @@
+/*
+	Note: This code is based on the following example:
+	http://www.cim.mcgill.ca/~yiannis/417/2013/COMP417_A1.pdf
+*/
+
+
 #include "ros/ros.h"
 #include "geometry_msgs/Twist.h"
 #include "sensor_msgs/LaserScan.h"
@@ -42,7 +48,7 @@ void Robot::move(double linearVelMPS, double angularVelRadPS)
 	//Assigning the linear and angular velocities.
 	msg.linear.x = linearVelMPS;
 	msg.angular.z = angularVelRadPS;
-	//Publising the message to the topic.
+	//Publishing the message to the topic.
 	commandPub.publish(msg);
 }
  

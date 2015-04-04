@@ -13,7 +13,7 @@ The class Robot is declared and defined in the files: Robot.h and Robot.cpp resp
 
 Currently, the RobotWander and RobotFollower nodes will wander in a world in stageros simulator. I'm still working to make RobotFollower to make honor to its name and actually follow the RobotWander instead of just wander like the other robot.
 
-This is the algorithm I am thinking to make RobotFollower to follow RobotWander (Disclaimer: I haven't tested it):
+This is the algorithm I am thinking to make RobotFollower to follow RobotWander (Note: I haven't tested it):
 
 Initial state: The RobotWanderer will be in front of the RobotFollower in the same orientation.
 
